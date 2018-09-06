@@ -1,0 +1,21 @@
+{
+  "name": "ogzcakar/basic-process-time",
+  "description": "The BasicProcessTime class allows you to see how long the processes you write work.",
+  "keywords": ["Basic Process Time", "Process Time"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oğuzhan ÇAKAR",
+      "email": "ogzcakar@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "BasicProcessTime\\": "src/"
+    },
+    "files": [
+      "Support/helpers.php"
+    ]
+  }
+}
